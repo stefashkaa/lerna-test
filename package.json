@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "publish-all": "lerna publish from-package"
+    "publish-all": "git add --all && git commit -m 'Auto update' && lerna version patch && lerna publish from-git"
   },
   "workspaces": [
     "packages/*"
