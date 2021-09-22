@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "publish-all": "lerna publish from-package"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
